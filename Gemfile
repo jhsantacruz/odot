@@ -20,3 +20,8 @@ gem 'bootstrap-sass', '~> 3.3.0'
 gem 'autoprefixer-rails', '~> 3.1.2.20141016'
 gem 'haml', '~> 4.0.5'
 gem 'simple_form', '~> 3.0.2'
+
+group :production do
+	gem 'pg', '~> 0.17.1'
+end
+
