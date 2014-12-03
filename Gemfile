@@ -13,7 +13,6 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'spring',        group: :development
 
 # 
 gem 'bootstrap-sass', '~> 3.3.0'
@@ -25,3 +24,7 @@ group :production do
 	gem 'pg', '~> 0.17.1'
 end
 
+group :development do
+	gem 'mina', '~> 0.3.1'
+	gem 'spring'
+end
