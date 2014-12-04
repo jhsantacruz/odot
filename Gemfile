@@ -5,7 +5,6 @@ ruby '2.1.3'
 # rails
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -27,6 +26,7 @@ end
 group :development do
 	gem 'mina', '~> 0.3.1'
 	gem 'spring'
+	gem 'sqlite3'
 end
 
 gem 'unicorn'
