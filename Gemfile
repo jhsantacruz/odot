@@ -28,3 +28,5 @@ group :development do
 	gem 'mina', '~> 0.3.1'
 	gem 'spring'
 end
+
+gem 'unicorn', '~> 4.8.3'
